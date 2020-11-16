@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UBERDriver</string>
+    <string name="loadease">LoadEase</string>
+    <string name="move_arround_quickly">Move arround quickly</string>
+    <string name="done">Done</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="complete_your_profile">Complete your Profile</string>
+    <string name="economy">Economy</string>
+    <string name="premium">Premium</string>
+    <string name="bike">Bike</string>
+    <string name="van">Van</string>
+    <string name="drone">Drone</string>
+    <string name="truck">Truck</string>
+    <string name="open_nevigation">Open Nevigation</string>
+    <string name="pick_up">Pick up</string>
+    <string name="house_14_street_6_garden_town_lhr">House # 14, Street 6, Garden town Lhr</string>
+    <string name="drop_off">Drop off</string>
+    <string name="techloop_software_house">TechLoop Software House</string>
+    <string name="open_nevigation">Open Nevigation</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:background="@drawable/cardview_background">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_marginTop="30dp"
+            android:weightSum="5"
+            android:layout_marginHorizontal="10sp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/prof_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_person_24"
+                app:civ_border_color="@color/lightgray"
+                app:civ_border_overlay="true"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/pick_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usama Saeed"
+                android:layout_toRightOf="@+id/prof_img"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/lightgray"
+                />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0km away| 0 mins"
+                android:layout_below="@+id/pick_up"
+                android:layout_toRightOf="@+id/prof_img"
+                android:textColor="@color/lightgray"/>
+
+            <TextView
+                android:id="@+id/rating_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_alignParentRight="true"
+                android:text="4.75"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_star_border_24"
+                android:layout_alignParentRight="true"/>
+
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:id="@+id/drop_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drop_off"
+                android:layout_toRightOf="@+id/def_dot_2"
+                android:textSize="15sp"
+                android:layout_below="@+id/distance"
+                android:textColor="@color/lightgray"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/techloop_software_house"
+                android:layout_toRightOf="@+id/def_dot_2"
+                android:layout_below="@+id/drop_off"
+                android:textColor="@color/lightgray"/>
+
+            <ImageView
+                android:id="@+id/splash_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/splash_img"
+                android:layout_below="@+id/prof_img"
+                android:layout_alignParentRight="true"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/splash_img"/>
+
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/open_nav"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/background_card_view"
+        android:layout_marginHorizontal="80dp"
+        android:text="@string/open_nevigation"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</FrameLayout>
