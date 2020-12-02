@@ -15,7 +15,7 @@
     <LinearLayout
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="350dp"
         android:orientation="vertical"
         android:weightSum="6"
         android:background="@drawable/cardview_background">
@@ -26,14 +26,14 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="horizontal"
-            android:layout_weight="2.4">
+            android:layout_weight="2.6">
 
 
 <LinearLayout
-    android:layout_width="110dp"
+    android:layout_width="100dp"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginHorizontal="10sp"
+    android:layout_marginHorizontal="5sp"
     android:background="@drawable/background_card_view_2"
     android:backgroundTint="@color/white">
 
@@ -62,10 +62,10 @@
 
 
             <LinearLayout
-                android:layout_width="110dp"
+                android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_marginHorizontal="10sp"
+                android:layout_marginHorizontal="5sp"
                 android:background="@drawable/background_card_view_2"
                 android:backgroundTint="@color/white">
 
@@ -84,19 +84,13 @@
                     android:textStyle="bold"
                     android:textColor="@color/lightgray"/>
 
-
-
-
-
-
-
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="110dp"
+                android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_marginHorizontal="10sp"
+                android:layout_marginHorizontal="5sp"
                 android:background="@drawable/background_card_view_2"
                 android:backgroundTint="@color/white">
 
@@ -121,31 +115,20 @@
 
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.67"
+            android:layout_weight="0.27"
             android:layout_marginTop="8dp"
             android:layout_marginHorizontal="12dp"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="28dp"
-                android:layout_height="28dp"
-                android:src="@drawable/ic_baseline_person_24"/>
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="15dp"
-                android:layout_marginStart="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/gender"
+                android:text="Do u want labour ?"
                 android:textColor="@color/lightgray"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textSize="17sp" />
 
 
         </LinearLayout>
@@ -156,22 +139,20 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:weightSum="3"
-            android:layout_weight="1.9"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
              <LinearLayout
                  android:layout_width="0dp"
-                 android:layout_height="match_parent"
+                 android:layout_height="wrap_content"
                  android:orientation="horizontal"
-                 android:layout_weight="2.9">
+                 android:layout_weight="3.2">
 
 
 
                               <LinearLayout
                                   android:layout_width="wrap_content"
                                   android:layout_height="wrap_content"
-                                  android:layout_weight="0.2"
-
                                   android:orientation="horizontal">
 
                                   <RadioButton
@@ -184,10 +165,9 @@
                                   <TextView
                                       android:layout_width="wrap_content"
                                       android:layout_height="wrap_content"
-                                      android:text="@string/male"
+                                      android:text="Yes"
                                       android:gravity="center"
                                       android:textSize="17sp"
-                                      android:layout_marginHorizontal="8dp"
                                       android:textColor="@color/lightgray"/>
 
                               </LinearLayout>
@@ -196,7 +176,6 @@
                               <LinearLayout
                                   android:layout_width="wrap_content"
                                   android:layout_height="wrap_content"
-                                  android:layout_weight="0.2"
                                   android:orientation="horizontal">
 
                                   <RadioButton
@@ -209,17 +188,190 @@
                                   <TextView
                                       android:layout_width="wrap_content"
                                       android:layout_height="wrap_content"
-                                      android:text="@string/male"
-                                      android:gravity="center"
+                                      android:text="No"
                                       android:textSize="17sp"
-                                      android:layout_marginHorizontal="8dp"
                                       android:textColor="@color/lightgray"/>
 
                               </LinearLayout>
 
              </LinearLayout>
 
+
+             <RelativeLayout
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_marginHorizontal="15dp"
+                 android:background="@drawable/background_ed_txt"
+                 >
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="No of Labours"
+                     android:textSize="12sp"
+                     android:layout_marginHorizontal="10sp"
+                     android:layout_marginTop="10dp"/>
+
+
+
+                 <Spinner
+                     android:layout_width="wrap_content"
+                     android:layout_alignParentRight="true"
+                     android:layout_marginHorizontal="5dp"
+                     android:layout_height="match_parent"/>
+
+
+
+             </RelativeLayout>
+
+
          </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do u want insurance ?"
+                android:textColor="@color/lightgray"
+                android:textSize="17sp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:backgroundTint="@color/lightgray"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:gravity="center"
+                        android:textSize="17sp"
+                        android:textColor="@color/lightgray"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginHorizontal="8dp"
+                        android:backgroundTint="@color/lightgray"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:gravity="center"
+                        android:textSize="17sp"
+                        android:layout_marginRight="30dp"
+                        android:textColor="@color/lightgray"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Fare = "
+                    android:textColor="@color/lightgray"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="700.00"
+                    android:textStyle="bold"
+                    android:textColor="@color/lightgray"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:id="@+id/verifybtn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                android:background="@drawable/background_card_view"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Verify"
+                    android:textStyle="bold"
+                    android:textSize="23sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
 
 
 

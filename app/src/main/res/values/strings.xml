@@ -18,5 +18,7 @@
     <string name="house_14_street_6_garden_town_lhr">House # 14, Street 6, Garden town Lhr</string>
     <string name="drop_off">Drop off</string>
     <string name="techloop_software_house">TechLoop Software House</string>
-    <string name="open_nevigation">Open Nevigation</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="_650_rs">650 rs</string>
+    <string name="cash_payment">Cash Payment</string>
 </resources>

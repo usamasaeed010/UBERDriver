@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UBERDriver">
-        <activity android:name=".EarningActivity"></activity>
+        <activity android:name=".EarningActivity">
+
+        </activity>
         <activity
             android:name=".TripDetailActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
@@ -17,13 +19,13 @@
             android:name=".RideDetailActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity
-            android:name=".ProfileActivity"
+            android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".SignIn_signUp"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ProfileActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity" />
         <activity
             android:name=".RideTypeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
